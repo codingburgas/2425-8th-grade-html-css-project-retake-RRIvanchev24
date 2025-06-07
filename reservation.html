@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Резервация</title>
+  <link rel="stylesheet" href="css/reservation.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Направете резервация</h1>
+    <form class="reservation-form" action="#" method="POST">
+      <label for="name">Име:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">Телефон:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="email">Имейл:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="date">Дата:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Час:</label>
+      <input type="time" id="time" name="time" required>
+
+      <label for="guests">Брой гости:</label>
+      <input type="number" id="guests" name="guests" min="1" max="20" required>
+
+      <button type="submit">Резервирай</button>
+    </form>
+  </div>
+</body>
+</html>
